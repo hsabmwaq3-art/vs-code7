@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the website
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
+
+# Disallow crawling of certain file types (if any)
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+
+# Sitemap location
+Sitemap: https://hsabmwaq3-art.github.io/vs-code7/sitemap.xml
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1
+
+# Cache sitemap for better performance
+# Host: https://hsabmwaq3-art.github.io/vs-code7/
+
+# UAE Car Service specific directives
+# Allow indexing of car service pages
+Allow: /*car*
+Allow: /*service*
+Allow: /*dubai*
+Allow: /*uae*
+Allow: /*winch*
+Allow: /*flatbed*
+Allow: /*emergency*
+Allow: /*repair*
